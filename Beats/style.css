@@ -1,0 +1,256 @@
+/*  Use the Google Font - **"Open Sans"**  */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    background-color: #fff;
+    color: #555;
+    
+}
+
+.container {
+    max-width: 130rem;
+    padding: 0 2.2rem;
+    margin: 0 auto;
+}
+
+/* SECTION HERO */
+.section-hero {
+    height:100vh;
+    margin-bottom: 7.6rem;
+}
+
+
+
+.nav-list {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15rem;
+   padding: 2.5rem 0 2rem 0;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 1.6rem;
+}
+
+.nav-item a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #555;
+    font-weight: 500;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+}
+
+.info-hero {
+    flex-basis: 45%;
+}
+
+.pic-hero {
+    flex-basis: 55%;
+}
+
+.img-landing {
+    width: 90%;
+}
+
+.heading-hero {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.p-hero {
+    font-size: 1.6rem;
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    font-size: 1.8rem;
+    padding: 1rem 5rem;
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #ff0000;
+    text-transform: uppercase;
+}
+
+/* SECTION POWER */
+
+.section-power {
+    margin-bottom: 5.6rem;
+}
+
+.power-container {
+    display: flex;
+}
+
+.power-info {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 39%;
+}
+
+.power-pic {
+    flex-basis: 59%;
+}
+
+.power-logo {
+    width: 80%;
+}
+
+.h-c {
+    text-align: right;
+    padding: 0 3rem 0 0;
+}
+
+.heading-power {
+    font-size: 5rem;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.subheading{
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+}
+
+.p-content {
+    font-size: 1.6rem;
+    line-height: 1.7;
+    font-weight: 500;
+    margin-bottom: 5rem;
+}
+
+.power-footer {
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+    gap: 3rem;
+    
+}
+
+.price {
+    font-size: 4rem;
+    color: #000;
+    font-weight: 600;
+}
+
+/* SECTION MORE */
+.try-more {
+    background-color: #575757;
+    color: #fff;
+
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.m-heading {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.h-more {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.strong {
+    font-weight: 700;
+}
+
+.read-btn {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 1rem 0;
+    font-size: 2.8rem;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+/* SECTION FEATURE */
+.feature {
+    display: flex;
+}
+
+.woman {
+    flex-basis: 50%;
+}
+
+.woman-img {
+    width: 100%;
+}
+
+.headphones {
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    color: #000;
+    background-color: #dadada;
+}
+
+.heads-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 10rem;
+}
+
+.heads-content h3 {
+    font-size: 10rem;
+    text-transform: uppercase;
+    letter-spacing: -0.7rem;
+    color: #444;
+}
+
+.p-content {
+    font-size: 3rem;
+    letter-spacing: -0.3rem;
+    color: #444;
+}
+
+.subheadeing-beats {
+    text-transform: uppercase;
+    color: #ff0000;
+    padding-left: 1rem;
+    font-size: 3.6rem;
+    font-weight: 600;
+    letter-spacing: -0.4rem;
+}
