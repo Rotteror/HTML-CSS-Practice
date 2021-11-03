@@ -1,0 +1,298 @@
+/* ⦁	Use font 'Montserrat' for the headings
+⦁	Use font 'Lato' for the text
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+ 
+html {
+     font-size: 62.5%;
+}
+ 
+body {
+     font-family: 'Lato', sans-serif;
+     line-height: 1;
+     font-weight: 400;
+     background-color: #fff;
+     color: #555;
+     
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+     font-family: 'Montserrat', sans-serif;
+ }
+ 
+ .container {
+     max-width: 130rem;
+     padding: 0 2.2rem;
+     margin: 0 auto;
+ }
+
+ /* SECTION HERO */
+header {
+    height: 7.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.09);
+    border-radius: 0.7rem;
+    margin-bottom: 2rem;
+}
+.header-logo{
+    width: 9.6rem;
+    margin-left: 2rem;
+    
+}
+
+.section-hero{
+    height: 65vh;
+    background-image: url(images/hero-certificates.jpg);
+    box-shadow: inset 0 0 0 150vw rgba(255, 255, 255, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 7.6rem;
+    
+    /* background: 
+    background:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://s8.postimg.cc/g96x696k3/Blizzard.jpg);
+     */
+}
+nav{
+    height: 100%;
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    gap: 2rem;
+}
+
+
+.nav-item {
+    display: flex;
+    font-size: 1.6rem;
+}
+
+.nav-item:last-child {
+ padding-top: 2.5rem;
+}
+
+.nav-item a {
+    display: block;
+    color: #555;
+    text-decoration: none;
+    padding-top: 2.5rem;
+    border-top: 2px solid #fff;
+    transition: all 0.5sec;
+}
+
+.nav-item a:hover {
+    border-top: 2px solid #42abf8;
+}
+
+.navBtn {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    letter-spacing: 0.09rem;
+    font-weight: 500;
+    border: none;
+    color: #fff;
+    background-color: #42abf8;
+}
+
+.header-content {
+    padding: 1rem 3rem;
+    display: flex;
+    gap: 3rem ;
+    color: #fff;
+}
+
+.image-header {
+    display: flex;
+    align-items: flex-end;
+  
+    
+}
+
+
+
+.text-header {
+    background-color: #29394b;
+    border-radius: 9px;
+}
+
+.text-header h2 {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+
+.p-header {
+    padding: 1rem 3rem 2rem 2rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.blue-certificate {
+    max-height: 80%;
+}
+
+.dark-certificate {
+    max-height: 90%;
+}
+
+.p-statement {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 2rem 0 2rem 3rem;
+}
+
+/* SECTION DIPLOMA */
+.diploma {
+    margin-bottom: 5.6rem;
+}
+
+.h {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.diplomaH {
+    font-size: 2.2rem;
+}
+
+.info-diploma {
+    background-color: #f4f5f7;
+}
+
+.p-diploma {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 500;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+}
+
+.p-diploma:last-child {
+    padding-bottom: 2.5rem;
+}
+.f-diploma{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* SECTION EXPLORE */
+.expl-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    color: #fff;
+    padding: 2rem 0;
+    background-image: url(images/sign-up-prompt-background.jpg);
+    box-shadow: inset 0 0 0 150vw rgba(68, 169, 249, 0.2);
+    /* box-shadow: inset 0 0 0 150vw rgba(0, 0, 0, 0.1); */
+    margin-bottom: 4.5rem;
+    border-radius: 9px;
+}
+
+.h-expl {
+    font-size: 2.4rem;
+}
+
+.subheading {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.expl-cta {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.btn {
+    padding: 1rem 4.5rem;
+    border-radius: 9px;
+    border: 0.1px solid #fff;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #42abf8;
+}
+
+.separator {
+    height: 3rem;
+    border-left: 2px solid #fff;
+}
+
+/* FOOTER SECTION */
+.foot {
+    border-top: 1px solid #000;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.f-img {
+    height: 4.6rem;
+}
+
+.p-copy {
+    font-size: 1.6rem;
+}
+
+.nav-footer {
+    display: flex;
+    align-items: center;
+}
+
+.f-list {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.f-item {
+    list-style-type: none;
+}
+
+.f-item a {
+    text-decoration: none;
+    display: block;
+    font-size: 1.4rem;
+    color: #555;
+}
+
+.icons-footer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.6rem;
+}
