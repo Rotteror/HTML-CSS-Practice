@@ -1,0 +1,286 @@
+/* ⦁	Use font Raleway  */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+/* background color - #efefef */
+/* <i class="fad fa-bars"></i> */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #333;
+}
+
+.outer {
+    max-width: 160rem;
+    padding: 0 2.2rem;
+    margin: 2.2rem auto;
+}
+
+.container {
+    max-width: 130rem;
+    padding: 0 1.2rem;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+/* SECTION HERO */
+
+.landing {
+    max-height: 100vh;
+}
+
+.outer {
+    background-color: #efefef;
+}
+
+.header {
+    height: 9.6rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;   
+    padding: 3rem 2rem;
+}
+
+.p-menu {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.icon-menu {
+    font-size: 1.6rem;
+    font-weight: 500;  
+}
+
+.h-div {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 49%;
+}
+
+.subheading {
+    font-size: 4.2rem;
+    margin-bottom: 3rem;
+    color: #555;
+}
+
+.strong {
+    color: #111;
+}
+
+.p-info {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+
+
+.img-hero {
+   display: flex; 
+   flex-basis: 50%;
+}
+
+.heropic {
+    width: 100%;
+}
+
+/* NAME SECTION */
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 4rem 0 2rem 0;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.p-name {
+    margin-bottom: 0;
+}
+
+.line{
+    height: 1px;
+    width: 6rem;
+    border-top: 3px solid #444;
+}
+
+.p-profile {
+    font-size: 1.6rem;
+    font-style: italic;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.li-item {
+    display: flex;
+    align-items: center;
+    font-size: 5rem;
+    color: #555;
+}
+
+/* SECTION FEATURE */
+.f-section {
+   padding: 0;
+}
+
+/* SECTION ENIM */
+.wrapper-enim {
+    display: flex;
+    align-items: center;
+    padding: 7rem 0;
+} 
+
+.profile-enim {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.p-enim {
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.enim-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+.separator {
+    transform: rotate(90deg);
+    margin-top: 2.5rem;
+    margin-left: -3rem;
+    color: #555;
+}
+
+
+.enim-img {
+    width: 50%;
+}
+
+/* SECTION FORM */
+.wrapperHello {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.p-hello {
+    font-style: italic;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+.footer-p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+
+.input-form {
+    font-size: 1.6rem;
+    padding: 1rem;
+    border: 1px solid #111;
+    width: 100%;
+}
+
+.row-one {
+    display: flex;
+    gap: 1rem;
+}
+
+textarea {
+    padding: 1rem;
+    font-size: 1.6rem;
+    width: 100%;
+}
+
+.form-cta {
+    color: #fff;
+    background-color: #111;
+    padding: 1rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* SECTION THUMBS */
+.wrapperThumbs {
+    padding: 10rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-absolute{
+    position: absolute;
+    top: 6rem;
+    left: 38rem;
+}
+
+.thumbsImg {
+    width: 33.3%;
+}
+
+.thumb {
+    width: 58%;
+}
